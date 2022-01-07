@@ -1,0 +1,125 @@
+body {
+    background-color:darkblue;
+    color: lime;
+}
+
+Nav{
+  border-radius: 30px;
+    color:lime;
+    height: 20px;
+    width: 90%;
+    border: 5px solid lime;
+    padding: 50px;
+    margin: 20px;
+    text-align:center;
+    display:inline-block;
+position:absolute;
+top: 100px;
+z-index:3;
+}
+
+button {
+margin-left:100px;
+height: 50px;
+width: 100px;
+background-color:lime;
+border-radius: 10px;
+
+}
+
+.nav1{
+text-decoration:none;
+color: darkblue;
+border-radius: 50%;
+}
+
+.nav2{
+text-decoration:none;
+color: darkblue;
+}
+
+.nav3{    text-decoration:none;
+color: darkblue;
+}
+
+.nav4{    text-decoration:none;
+color: darkblue;
+}
+
+.nav5{    text-decoration:none;
+  color: darkblue;
+}
+/* unvisited link */
+a:link {
+  color: rgb(0, 238, 255);
+}
+
+/* visited link */
+a:visited {
+  color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: turquoise;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+      .img1 {
+        border:5px solid lime;
+        display:inline-block; 
+        width: 450px;
+        height: 300px;
+      position:absolute;
+      top: 380px;
+      left:1050px;
+      z-index:1;
+      }
+
+      .img2 {
+        border:5px solid lime;
+        display:inline-block; 
+        width: 450px;
+        height: 300px;
+      position:absolute;
+      top: 380px;
+left: 30px;
+      z-index:1;
+      }
+
+
+div {
+  border:5px solid lime;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  top: 300px;
+}
+
+.button2 {
+ position: absolute;
+ top:200px;
+right: 200px;
+}
+
+.button2 :hover {
+  background-color: #555;
+}
+
+footer {
+  border: solid darkblue;
+  background-color: cornflowerblue;
+  color: darkblue;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+top:800px;
+}
+
